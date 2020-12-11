@@ -37,7 +37,7 @@ in order to deomnstrate some of Ansible powerful capabilites
 we will be creating a Template of a OS to create 3 virtual machines 
 One as a Ansible control Machine
 Two other machines to taget for configuration changes
-
+ ![Map](https://github.com/baderfahoum17/Intro-To-Ansible/blob/main/Screen%20Shot%202020-12-11%20at%2020.15.17.png)
 
 
 ... UNDER CONSTRUCTION
