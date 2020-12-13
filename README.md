@@ -64,3 +64,4 @@ INSTALLATION:
 ![snapshot](https://github.com/baderfahoum17/Intro-To-Ansible/blob/main/Screen%20Shot%202020-12-13%20at%2015.02.26.png)
 
 > install ANSIBLE on the Ansible-controller machine `sudo yum install ansible`
+(we do not need to install ansible on the target hosts because ansible is AGENTLESS, meaning no additional installation is needed on target hosts, as it uses SSH to establish a connection for its needs)
