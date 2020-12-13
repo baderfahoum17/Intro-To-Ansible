@@ -45,12 +45,18 @@ Two other machines to taget for configuration changes
 
 DOWNLOADS:
 > we can download a costum image of CentOS from osboxes.org
+
 > download VirutalBox from virtualbox.org
+
 > we will be using an SSH Client either Mobaxtrem or Putty
 
 INSTALLATION: 
-> create a centOS template in virtualbox 
+> create a centOS template in virtualbox
+
 > below attached image of the system snapshot
+
 > use this template to create three virtual machines, Ansible-controller, ansible-target1, ansible-target2
+
 > inside the virtualboxes run(foreach) `ifconfig` to extract the vm's ip address
+
 > with our SSH client connect to those vm(it will be easier and faster to use the CLI rather than the vm GUI)
