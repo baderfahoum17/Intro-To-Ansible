@@ -37,7 +37,20 @@ in order to deomnstrate some of Ansible powerful capabilites
 we will be creating a Template of a OS to create 3 virtual machines 
 One as a Ansible control Machine
 Two other machines to taget for configuration changes
+
  ![Map](https://github.com/baderfahoum17/Intro-To-Ansible/blob/main/Screen%20Shot%202020-12-11%20at%2020.15.17.png)
 
 
 ... UNDER CONSTRUCTION
+
+DOWNLOADS:
+> we can download a costum image of CentOS from osboxes.org
+> download VirutalBox from virtualbox.org
+> we will be using an SSH Client either Mobaxtrem or Putty
+
+INSTALLATION: 
+> create a centOS template in virtualbox 
+> below attached image of the system snapshot
+> use this template to create three virtual machines, Ansible-controller, ansible-target1, ansible-target2
+> inside the virtualboxes run(foreach) `ifconfig` to extract the vm's ip address
+> with our SSH client connect to those vm(it will be easier and faster to use the CLI rather than the vm GUI)
