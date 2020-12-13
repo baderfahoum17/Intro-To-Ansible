@@ -62,3 +62,5 @@ INSTALLATION:
 > with our SSH client connect to those vm(it will be easier and faster to use the CLI rather than the vm GUI)
 
 ![snapshot](https://github.com/baderfahoum17/Intro-To-Ansible/blob/main/Screen%20Shot%202020-12-13%20at%2015.02.26.png)
+
+> install ANSIBLE on the Ansible-controller machine `sudo yum install ansible`
