@@ -65,3 +65,9 @@ INSTALLATION:
 
 > install ANSIBLE on the Ansible-controller machine `sudo yum install ansible`
 (we do not need to install ansible on the target hosts because ansible is AGENTLESS, meaning no additional installation is needed on target hosts, as it uses SSH to establish a connection for its needs)
+
+
+-------------------------------------------------------
+
+attached to this repository a playbook with the instructions on how to set up a web_server and a mysql server on a running DOCKER CONTAINER with a simple ubunto OS image
+this is a monolithic approach as our container both runs the SQL SERVER AND THE WEB Server
