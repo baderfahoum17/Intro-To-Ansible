@@ -71,3 +71,9 @@ INSTALLATION:
 
 attached to this repository a playbook with the instructions on how to set up a web_server and a mysql server on a running DOCKER CONTAINER with a simple ubunto OS image
 this is a monolithic approach as our container both runs the SQL SERVER AND THE WEB Server
+
+
+
+
+# ⚒⚒🚧🚧 READ ME UNDERCONSTRUCTION  🚧🚧⚒⚒
+### 🦾🦾👷🏼‍♂️👷🏻‍♀️
