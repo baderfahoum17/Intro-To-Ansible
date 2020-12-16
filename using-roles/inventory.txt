@@ -1,0 +1,6 @@
+# the host ip we are providing is a docker container running on the ansible controller
+
+docker ansible_host=172.17.0.2 ansible_user=root ansible_ssh_pass=Passw0rd
+
+[db_web_server]
+docker

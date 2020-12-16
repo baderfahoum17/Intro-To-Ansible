@@ -1,0 +1,7 @@
+- name: Deploy simple web Application
+  hosts: db_web_server
+  roles:
+    # order is important
+    - python
+    - mysql_db
+    - flask_web

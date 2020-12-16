@@ -1,0 +1,15 @@
+---
+# install and Configure Web Server
+- name: Instal Python Flask depenecy
+  pip:
+    name: "{{item}}"
+    state: present
+  with_items:
+    - flask
+    - flask-mysql
+
+- name: Copy source code
+  copy: src=app.py dest=/opt/app.py
+
+- name: Start weB SERVER
+  shell: FLASK_APP=app.py nohup flask run --host=0.0.0.0 &
